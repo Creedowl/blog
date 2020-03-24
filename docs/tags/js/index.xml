@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>js on Creedowl</title>
+    <link>https://blog.creedowl.com/tags/js/</link>
+    <description>Recent content in js on Creedowl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hans</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 26 Jan 2019 21:59:14 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.creedowl.com/tags/js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>var和let声明变量的区别</title>
+      <link>https://blog.creedowl.com/posts/js-differences-between-var-and-let/</link>
+      <pubDate>Sat, 26 Jan 2019 21:59:14 +0800</pubDate>
+      
+      <guid>https://blog.creedowl.com/posts/js-differences-between-var-and-let/</guid>
+      <description>var和let声明变量的区别 今天因为全局变量重复声明的问题被let坑了好久，就研究了一下var和let的区别 var var是最早的变量标识符（但在</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creedowl</title>
+    <link>https://blog.creedowl.com/</link>
+    <description>Recent content on Creedowl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hans</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 23 Mar 2020 16:42:46 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.creedowl.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://blog.creedowl.com/about/</link>
+      <pubDate>Mon, 23 Mar 2020 16:42:46 +0800</pubDate>
+      
+      <guid>https://blog.creedowl.com/about/</guid>
+      <description>我是Creedowl，这是我的blog，有任何问题或建议欢迎与我交流</description>
+    </item>
+    
+    <item>
+      <title>重新开始</title>
+      <link>https://blog.creedowl.com/posts/renew/</link>
+      <pubDate>Thu, 19 Mar 2020 21:28:13 +0800</pubDate>
+      
+      <guid>https://blog.creedowl.com/posts/renew/</guid>
+      <description>突然发现距上一篇blog发布已经过去了快一年的时间，原先的blog也疏于打理，只有寥寥几篇文章，图床基本失效。主要因为我比较懒，认真整理一篇</description>
+    </item>
+    
+    <item>
+      <title>Vue.js 从入坑到入土</title>
+      <link>https://blog.creedowl.com/posts/vue-demo-instruction/</link>
+      <pubDate>Tue, 23 Apr 2019 21:25:25 +0800</pubDate>
+      
+      <guid>https://blog.creedowl.com/posts/vue-demo-instruction/</guid>
+      <description>Vue.js 从入坑到入土 近年来前端领域发展飞速，从最早的直接写html, js, css 到使用jQuery快速开发，再到近年来使用Vuejs，Reactjs 实现工</description>
+    </item>
+    
+    <item>
+      <title>南航校园网OpenWRT配置IPv6 NAT6</title>
+      <link>https://blog.creedowl.com/posts/ipv6_and_nat6_in_nuaa/</link>
+      <pubDate>Thu, 04 Apr 2019 23:29:39 +0800</pubDate>
+      
+      <guid>https://blog.creedowl.com/posts/ipv6_and_nat6_in_nuaa/</guid>
+      <description>当前IPv6越来越流行，不但解决了IPv4地址不够用的问题，还能给接入的设备提供公网访问的支持。但由于校园网的特殊性，虽然很早就有了IPv6</description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL 简介与常用命令</title>
+      <link>https://blog.creedowl.com/posts/postgres-handbook/</link>
+      <pubDate>Sun, 03 Feb 2019 18:32:39 +0800</pubDate>
+      
+      <guid>https://blog.creedowl.com/posts/postgres-handbook/</guid>
+      <description>PostgreSQL 简介与常用命令 PostgreSQL，简称postgres，是继mysql被收购之后极为热门的开源关系型数据库，这篇文章简单记录一些使用过程</description>
+    </item>
+    
+    <item>
+      <title>var和let声明变量的区别</title>
+      <link>https://blog.creedowl.com/posts/js-differences-between-var-and-let/</link>
+      <pubDate>Sat, 26 Jan 2019 21:59:14 +0800</pubDate>
+      
+      <guid>https://blog.creedowl.com/posts/js-differences-between-var-and-let/</guid>
+      <description>var和let声明变量的区别 今天因为全局变量重复声明的问题被let坑了好久，就研究了一下var和let的区别 var var是最早的变量标识符（但在</description>
+    </item>
+    
+    <item>
+      <title>decorator 装饰器</title>
+      <link>https://blog.creedowl.com/posts/python-decorator/</link>
+      <pubDate>Sat, 03 Nov 2018 16:24:59 +0800</pubDate>
+      
+      <guid>https://blog.creedowl.com/posts/python-decorator/</guid>
+      <description>decorator 装饰器 普通装饰器 有个计算a+b的函数 def add(a, b): return a+b 现在想要在函数执行前后进行操作，可以用装饰器 from functools import wraps def log(func): @wraps(func) # 避免原函数的__name__等属</description>
+    </item>
+    
+  </channel>
+</rss>

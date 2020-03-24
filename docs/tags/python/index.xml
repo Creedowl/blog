@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Creedowl</title>
+    <link>https://blog.creedowl.com/tags/python/</link>
+    <description>Recent content in python on Creedowl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hans</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 03 Nov 2018 16:24:59 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.creedowl.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>decorator 装饰器</title>
+      <link>https://blog.creedowl.com/posts/python-decorator/</link>
+      <pubDate>Sat, 03 Nov 2018 16:24:59 +0800</pubDate>
+      
+      <guid>https://blog.creedowl.com/posts/python-decorator/</guid>
+      <description>decorator 装饰器 普通装饰器 有个计算a+b的函数 def add(a, b): return a+b 现在想要在函数执行前后进行操作，可以用装饰器 from functools import wraps def log(func): @wraps(func) # 避免原函数的__name__等属</description>
+    </item>
+    
+  </channel>
+</rss>
