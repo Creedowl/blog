@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.creedowl.com/tags/gpg/</loc>
+    <lastmod>2020-04-02T14:47:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.creedowl.com/posts/gpg/</loc>
+    <lastmod>2020-04-02T14:47:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.creedowl.com/posts/</loc>
+    <lastmod>2020-04-02T14:47:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.creedowl.com/tags/</loc>
+    <lastmod>2020-04-02T14:47:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.creedowl.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2020-04-02T14:47:31+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.creedowl.com/about/</loc>
     <lastmod>2020-03-23T16:42:46+08:00</lastmod>
   </url>
@@ -18,16 +43,6 @@
   </url>
   
   <url>
-    <loc>https://blog.creedowl.com/posts/</loc>
-    <lastmod>2020-03-19T21:28:13+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.creedowl.com/tags/</loc>
-    <lastmod>2020-03-19T21:28:13+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.creedowl.com/posts/renew/</loc>
     <lastmod>2020-03-19T21:28:13+08:00</lastmod>
   </url>
@@ -39,11 +54,6 @@
   
   <url>
     <loc>https://blog.creedowl.com/posts/vue-demo-instruction/</loc>
-    <lastmod>2019-04-23T21:25:25+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.creedowl.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2019-04-23T21:25:25+08:00</lastmod>
   </url>
   

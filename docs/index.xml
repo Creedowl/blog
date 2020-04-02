@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>GPG使用笔记</title>
+      <link>https://blog.creedowl.com/posts/gpg/</link>
+      <pubDate>Thu, 02 Apr 2020 14:47:31 +0800</pubDate>
+      
+      <guid>https://blog.creedowl.com/posts/gpg/</guid>
+      <description>Why GPG? GPG 是一个密码学软件，用于加密、签名通信内容及管理非对称密码学的密钥，具体历史、介绍可以在wiki中看到，官网 而我使用 GPG 的缘由是，在 Github 上提</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://blog.creedowl.com/about/</link>
       <pubDate>Mon, 23 Mar 2020 16:42:46 +0800</pubDate>
