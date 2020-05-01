@@ -29,24 +29,24 @@ ip6tables kmod-ipt-nat6 kmod-ip6tables kmod-ip6tables-extra luci-proto-ipv6 iput
 
 ## 1：OpenWRT配置获取IPv6
 
-![IPv6_setting_1](http://ww1.sinaimg.cn/large/0071ouepgy1g1pisgc9yhj319v0p2tco.jpg)
+![IPv6_setting_1](https://blog-1251984664.cos.ap-shanghai.myqcloud.com/UTOOLS1588304901671.png/compress)
 
 ### 1. 修改IPv6 ULA前缀为fd开头（默认为dd开头）
 ### 2. 修改wan6口配置（如下图所示）
 
-![IPv6_setting_2](http://ww1.sinaimg.cn/large/0071ouepgy1g1pivtmkrbj30p00eumyi.jpg)
+![IPv6_setting_2](https://blog-1251984664.cos.ap-shanghai.myqcloud.com/UTOOLS1588304939503.png/compress)
 
 ### 3. 修改lan口DHCP服务器配置（如下图所示）
 
-![IPv6_setting_3](http://ww1.sinaimg.cn/large/0071ouepgy1g1piynr74fj30ta0adwfe.jpg)
+![IPv6_setting_3](https://blog-1251984664.cos.ap-shanghai.myqcloud.com/UTOOLS1588304973656.png/compress)
 
-![IPv6_setting_4](http://ww1.sinaimg.cn/large/0071ouepgy1g1pizho2fmj30nu0bymy5.jpg)
+![IPv6_setting_4](https://blog-1251984664.cos.ap-shanghai.myqcloud.com/UTOOLS1588304997028.png/compress)
 
 此时稍等片刻，在概况中应该就能看到获取到的IPv6地址及下游设备DHCPv6分配内网IPv6地址
 
-![IPv6_setting_5](http://ww1.sinaimg.cn/large/0071ouepgy1g1pj4uxq0hj30rd08xaar.jpg)
+![IPv6_setting_5](https://blog-1251984664.cos.ap-shanghai.myqcloud.com/UTOOLS1588305013341.png/compress)
 
-![IPv6_setting_6](http://ww1.sinaimg.cn/large/0071ouepgy1g1pj5feonfj311806ldgn.jpg)
+![IPv6_setting_6](https://blog-1251984664.cos.ap-shanghai.myqcloud.com/UTOOLS1588305030637.png/compress)
 
 现在你的路由器已经可以使用IPv6了，但下游设备并不行，就需要配置NAT6。
 
@@ -56,7 +56,7 @@ ip6tables kmod-ipt-nat6 kmod-ip6tables kmod-ip6tables-extra luci-proto-ipv6 iput
 
 ### 1. 修改防火墙
 
-![IPv6_setting_7](http://ww1.sinaimg.cn/large/0071ouepgy1g1pjfj32f5j30su0gvn00.jpg)
+![IPv6_setting_7](https://blog-1251984664.cos.ap-shanghai.myqcloud.com/UTOOLS1588305046715.png/compress)
 
 加入以下自定义规则
 
@@ -70,7 +70,7 @@ ip6tables -A FORWARD -i $LAN -j ACCEPT
 
 **注意这里WAN6和LAN要改为外网IPv6和内网网卡名字，在终端使用ifconfig查看**
 
-![IPv6_setting_8](http://ww1.sinaimg.cn/large/0071ouepgy1g1pjk4cddbj30ll0jwq71.jpg)
+![IPv6_setting_8](https://blog-1251984664.cos.ap-shanghai.myqcloud.com/UTOOLS1588305068355.png/compress)
 
 ### 2. 配置网关
 
